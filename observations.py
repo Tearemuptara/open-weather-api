@@ -15,7 +15,7 @@ response = requests.get(points_url, headers=headers)
 
 if response.status_code == 200:
     data = response.json()
-    #Pretty print the full response from the /points endpoint:
+    #Pretty print the full response from the endpoint:
     print("Full /points response:")
     print(json.dumps(data, indent=4))
 

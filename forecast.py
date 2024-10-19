@@ -1,43 +1,39 @@
 import requests
-#import json
+import json
 from dataclasses import dataclass
+from geolocation import PersonalInfo
+from forecast_metadata import get_forecast_metadata
 
-#Define a data class
+#Define the forecast data class
 @dataclass
 class Forecast:
     day: str
     temperature: int
     chance_rain: int
 
+def get_forecast():
+    headers = PersonalInfo.headers
+    url = get_forecast_metadata()
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        data = response.json()
+        forecast = [
+            Forecast(
+                day = period['name'],
+                temperature = period['temperature'],
+                chance_rain = period['probabilityOfPrecipitation']['value'],
+            )
+            for period in data['properties']['periods']
+        ]
 
-headers = {
-    'Happy-Agent50371376785416137261': '(myweatherapp.com, tmprevo@gmail.com)'
-}
+        for f in forecast:
+            print(f'{f.day}: {f.temperature} degrees)')
+            if f.chance_rain != None: print(f'{f.chance_rain}% chance of rain') 
+            else: print("No rain!")
 
-#Zone-county correlation file: https://www.weather.gov/gis/ZoneCounty
-latitude = 39.7456
-longitude = -97.0892
+        # stuff = json.dumps(data, indent=4)
+        # print(stuff)
+    else: print("Error.")
 
-#url = f'https://api.weather.gov/points/{latitude},{longitude}'
-url = 'https://api.weather.gov/gridpoints/TOP/31,80/forecast'
-response = requests.get(url, headers=headers)
 
-if response.status_code == 200:
-    data = response.json()
-    forecast = [
-        Forecast(
-            day = period['name'],
-            temperature = period['temperature'],
-            chance_rain = period['probabilityOfPrecipitation']['value'],
-        )
-        for period in data['properties']['periods']
-    ]
-
-    for f in forecast:
-        print(f.day)
-        print(f.temperature)
-        print(f.chance_rain)
-
-    #stuff = json.dumps(data, indent=4)
-    #print(stuff)
-else: print("Error.")
+get_forecast()
