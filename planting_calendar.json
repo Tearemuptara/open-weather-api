@@ -1,932 +1,1305 @@
 {
     "periods": [
-      {
-        "period_name": "January",
-        "valid_dates": "1/1-1/31",
-        "activities":["Plan garden layout!"],
-        "seed_indoors": [
-          "Artichoke",
-          "Arugula",
-          "Endive",
-          "Fava Beans",
-          "Kale",
-          "Leeks",
-          "Lettuce",
-          "Mustard",
-          "Onions",
-          "Peas",
-          "Scallions",
-          "Spinach"
-        ],
-        "seed_outdoors": ["Radish"],
-        "starts_outdoors:": null,
-        "seed_indoors_ideal": ["Onions"],
-        "seed_outdoors_ideal": null,
-        "starts_outdoors_ideal": null,
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": null,
-        "starts_outdoors_ideal_dates": null
-      },
-      {
-        "period_name": "February",
-        "valid_dates": "2/1-2/29",
-        "activities":[],
-        "seed_indoors": [
-            "Celery",
-            "Swiss Chard",
-            "Chives",
-            "Choi",
-            "Eggplant",
-            "Endive",
-            "Kale",
-            "Kohlrabi",
-            "Leeks",
-            "Lettuce",
-            "Onion",
-            "Parsley",
-            "Peppers",
-            "Tomatillos",
-            "Tomatoes"
-        ],
-        "seed_outdoors": [
-            "Arugula",
-            "Asparagus (crowns)",
-            "Cilantro",
-            "Fava beans",
-            "Garlic (cloves)",
-            "Mustard Greens",
-            "Onion",
-            "Onion Bunches",
-            "Onion sets",
-            "Peas",
-            "Potatoes (tubers)",
-            "Radish",
-            "Scallions",
-            "Spinach"
-        ],
-        "starts_outdoors:": ["Artichoke", "Peas", "Garlic", "Onions"],
-        "seed_indoors_ideal": ["Eggplant"],
-        "seed_outdoors_ideal": ["Arugula", "Onion", "Onion Bunches", "Onion Sets", "Peas", "Spinach"],
-        "starts_outdoors_ideal": null,
-        "seed_indoors_ideal_dates": [{"2/15": ["Eggplant", "Peppers", "Tomatoes"]}],
-        "seed_outdoors_ideal_dates": null,
-        "starts_outdoors_ideal_dates": null
-      },
-      {
-        "period_name": "March",
-        "valid_dates": "3/1-3/31",
-        "activities":[],
-        "seed_indoors": [
-            "Broccoli",
-            "Cabbage",
-            "Cauliflower",
-            "Celeriac",
-            "Celery",
-            "Eggplant",
-            "Leeks",
-            "Lettuce",
-            "Peppers",
-            "Scallions",
-            "Tomatoes",
-            "Tomatillos"
-        ],
-        "seed_outdoors": [
-            "Arugula",
-            "Asian greens",
-            "Asparagus (crown)",
-            "Swiss Chard",
-            "Cilantro",
-            "Choi",
-            "Fava Beans",
-            "Garlic (cloves)",
-            "Kale",
-            "Mustard greens",
-            "Peas",
-            "Potatoes (tuber)",
-            "Scallions",
-            "Spinach"
-        ],
-        "starts_outdoors:": [
-            "Artichoke",
-            "Arugula",
-            "Asian greens",
-            "Broccoli",
-            "Cabbage (early)",
-            "Swiss Chard",
-            "Choi",
-            "Cilantro",
-            "Green onions",
-            "Jer. Artichoke",
-            "Tuber",
-            "Kale",
-            "Lettuce",
-            "Mustard greens",
-            "Onion",
-            "Peas",
-            "Salad greens",
-            "Spinach"
-        ],
-        "seed_indoors_ideal": ["Eggplant", "Peppers", "Tomatoes", "Tomatillos"],
-        "seed_outdoors_ideal": ["Arugula", "Asparagus (crown)", "Swiss Chard", "Mustard greens", "Peas", "Spinach"],
-        "starts_outdoors_ideal": ["Broccoli", "Jer. Artichoke", "Kale"],
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": [{"3/1": ["Peas"]}],
-        "starts_outdoors_ideal_dates": null
-      },
-      {
-        "period_name": "April",
-        "valid_dates": "4/1-4/30",
-        "seed_indoors": null,
-        "seed_outdoors": null,
-        "starts_outdoors:": [
-            "Artichoke",
-            "Arugula",
-            "Asian Greens",
-            "Beets",
-            "Broccoli",
-            "Brussels Sprouts",
-            "Cabbage (early)",
-            "Carrots",
-            "Cauliflower",
-            "Celeriac",
-            "Celery",
-            "Swiss Chard",
-            "Choi",
-            "Cilantro",
-            "Collards",
-            "Dill",
-            "Endive",
-            "Fennel (bulbing)",
-            "Jer. Artichoke",
-            "Kale",
-            "Kohlrabi",
-            "Leeks",
-            "Lettuce",
-            "Mustard Greens",
-            "Peas",
-            "Radicchio",
-            "Salad greens",
-            "Scallions",
-            "Sorrel",
-            "Spinach"
-        ],
-        "seed_indoors_ideal": [],
-        "seed_outdoors_ideal": null,
-        "starts_outdoors_ideal": [
-            "Artichoke",
-            "Broccoli",
-            "Cabbage (early types)",
-            "Cauliflower",
-            "Celeriac",
-            "Celery",
-            "Endive",
-            "Fennel (bulbing)",
-            "Jer. Artichoke",
-            "Kale",
-            "Leeks"
-        ],
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": null,
-        "starts_outdoors_ideal_dates": [{"4/15": ["Celeriac", "Celery"]}]
-      },
-      {
-        "period_name": "Late April",
-        "valid_dates": "4/15-4/30",
-        "activities":["Harden off seedlings"],
-        "seed_indoors": [
-            "Basil",
-            "Cucumber",
-            "Melon",
-            "Pumpkin",
-            "Squash, summer",
-            "Squash, winter"
-        ],
-        "seed_outdoors": [
-            "Arugula",
-            "Asian greens",
-            "Asparagus (crown)",
-            "Beets",
-            "Broccoli",
-            "Brussels sprouts",
-            "Cabbage (early)",
-            "Carrots",
-            "Cauliflower",
-            "Celeriac",
-            "Celery",
-            "Swiss Chard",
-            "Choi",
-            "Cilantro",
-            "Collards",
-            "Dill",
-            "Endive",
-            "Fennel (bulbing)",
-            "Jer. Artichoke (tuber)",
-            "Kale",
-            "Kohlrabi",
-            "Lettuce",
-            "Mustard Greens",
-            "Peas",
-            "Potatoes (tubers)",
-            "Radicchio",
-            "Radish",
-            "Scallions",
-            "Sorrel",
-            "Spinach",
-            "Turnips"
-        ],
-        "starts_outdoors:": null,
-        "seed_indoors_ideal": null,
-        "seed_outdoors_ideal": [
-            "Beets",
-            "Broccoli",
-            "Cabbage (early)",
-            "Carrots",
-            "Cauliflower",
-            "Celeriac",
-            "Celery",
-            "Swiss Chard",
-            "Choi",
-            "Cilantro",
-            "Endive",
-            "Jer. Artichoke (tuber)",
-            "Kohlrabi",
-            "Lettuce",
-            "Spinach",
-            "Turnips"
-        ],
-        "starts_outdoors_ideal": null,
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": [{"4/1": ["Carrots", "Peas"]}, {"4/15": ["Celeriac", "Celery"]}],
-        "starts_outdoors_ideal_dates": null
-      },
-      {
-        "period_name": "May",
-        "valid_dates": "5/1-5/31",
-        "activities":[],
-        "seed_indoors": ["Basil", "Cucumber", "Melon"],
-        "seed_outdoors": [
-            "Arugula",
-            "Asian greens",
-            "Basil",
-            "Beans",
-            "Beets",
-            "Broccoli",
-            "Brussels sprouts",
-            "Cabbage",
-            "Carrots",
-            "Cauliflower",
-            "Celeriac",
-            "Celery",
-            "Swiss Chard",
-            "Choi",
-            "Cilantro",
-            "Collards",
-            "Dill",
-            "Fennel (bulbing)",
-            "Kale",
-            "Kohlrabi",
-            "Leeks",
-            "Lettuce",
-            "Parsnips",
-            "Potatoes",
-            "Tubers",
-            "Pumpkin",
-            "Radicchio",
-            "Radish",
-            "Rutabaga",
-            "Salad greens",
-            "Scallions",
-            "Spinach",
-            "Squash, summer",
-            "Squash, winter",
-            "Turnips"
-        ],
-        "starts_outdoors:": [
-            "Artichoke",
-            "Arugula",
-            "Basil",
-            "Beans",
-            "Broccoli",
-            "Cabbage (early and late)",
-            "Carrots",
-            "Cauliflower",
-            "Celeriac",
-            "Celery",
-            "Swiss Chard",
-            "Collards",
-            "Corn",
-            "Cucumbers",
-            "Dill",
-            "Eggplant",
-            "Fennel (bulbing)",
-            "Jer. Artichoke",
-            "Kale",
-            "Kohlrabi",
-            "Leeks",
-            "Lettuce",
-            "Peppers",
-            "Radicchio",
-            "Salad Greens",
-            "Scallions",
-            "Sorrel",
-            "Spinach",
-            "Squash, summer",
-            "Squash, winter",
-            "Tomatoes",
-            "Tomatillos"
-        ],
-        "seed_indoors_ideal": null,
-        "seed_outdoors_ideal": [
-            "Beans",
-            "Brussels sprouts",
-            "Collards",
-            "Parsnips",
-            "Potatoes",
-            "Spinach"
-        ],
-        "starts_outdoors_ideal": [],
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": [{"5/15": ["Basil", "Beans", "Dill", "Pumpkin", "Squash, summer", "Squash, winter"]}],
-        "starts_outdoors_ideal_dates": [{"5/15": ["Basil", "Corn", "Cucumbers", "Eggplant", "Peppers", "Squash, summer", "Squash, winter", "Tomatoes", "Tomatillos"]}]
-      },
-      {
-        "period_name": "June",
-        "valid_dates": "6/1-6/30",
-        "activities":[],
-        "seed_indoors": null,
-        "seed_outdoors": [
-            "Arugula",
-            "Asian greens",
-            "Basil",
-            "Beans",
-            "Beets",
-            "Broccoli",
-            "Brussels sprouts",
-            "Cabbage (late)",
-            "Carrots",
-            "Cauliflower",
-            "Swiss Chard",
-            "Cilantro",
-            "Corn",
-            "Cucumbers",
-            "Dill",
-            "Endive",
-            "Kale Kohlrabi",
-            "Lettuce",
-            "Melons",
-            "Parsnips",
-            "Pumpkins",
-            "Rutabaga",
-            "Scallions",
-            "Squash, summer",
-            "Squash, winter",
-            "Turnips"
-        ],
-        "starts_outdoors:": [
-            "Artichoke",
-            "Basil",
-            "Beans",
-            "Broccoli",
-            "Brussels sprouts",
-            "Cauliflower",
-            "Celery",
-            "Corn",
-            "Cucumbers",
-            "Eggplant",
-            "Leeks",
-            "Melons",
-            "Peppers",
-            "Pumpkins",
-            "Squash (all)",
-            "Swiss chard",
-            "Tomatoes"
-        ],
-        "seed_indoors_ideal": [],
-        "seed_outdoors_ideal": [
-            "Basil",
-            "Beans",
-            "Brussels sprouts",
-            "Cabbage (late)",
-            "Carrots",
-            "Corn",
-            "Cucumbers",
-            "Kale Kohlrabi",
-            "Melons",
-            "Pumpkins",
-            "Rutabaga",
-            "Squash, summer",
-            "Squash, winter"
-        ],
-        "starts_outdoors_ideal": [
-            "Basil",
-            "Brussels sprouts",
-            "Corn",
-            "Eggplant",
-            "Peppers",
-            "Squash, summer",
-            "Squash, winter",
-            "Tomatoes"
-        ],
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": [
-            {"6/1": ["Basil", "Beans", "Cabbage (late)", "Cucumbers", "Melons", "Pumpkins", "Squash, summer", "Squash, winter"]}, 
-            {"6/15":["Carrots"]}
-        ],
-        "starts_outdoors_ideal_dates": []
-      },
-      {
-        "period_name": "July",
-        "valid_dates": "7/1-7/31",
-        "activities":[],
-        "seed_indoors": null,
-        "seed_outdoors": [
-            "Arugula",
-            "Asian greens",
-            "Basil",
-            "Beans Beets",
-            "Broccoli",
-            "Brussels Sprouts",
-            "Cabbage (early)",
-            "Carrots",
-            "Cauliflower",
-            "Swiss Chard",
-            "Cilantro",
-            "Collards",
-            "Corn",
-            "Fennel (bulbing)",
-            "Kale",
-            "Kohlrabi",
-            "Lettuce",
-            "Parsnips",
-            "Peas",
-            "Radish",
-            "Scallions",
-            "Spinach",
-            "Squash, Summer",
-            "Turnips"
-        ],
-        "starts_outdoors:": [
-            "Artichoke",
-            "Basil",
-            "Broccoli",
-            "Bruss. sprouts",
-            "Cabbage",
-            "Carrots",
-            "Cauliflower",
-            "Collards",
-            "Corn",
-            "Cucumbers",
-            "Eggplant",
-            "Kale",
-            "Leeks",
-            "Lettuce",
-            "Peppers",
-            "Squash, summer"
-        ],
-        "seed_indoors_ideal": [],
-        "seed_outdoors_ideal": [
-            "Asian greens",
-            "Beans Beets",
-            "Broccoli",
-            "Carrots",
-            "Cauliflower",
-            "Corn",
-            "Fennel (bulbing)",
-            "Kale",
-            "Turnips"
-        ],
-        "starts_outdoors_ideal": [
-            "Basil",
-            "Broccoli",
-            "Bruss. sprouts",
-            "Cabbage",
-            "Carrots",
-            "Cauliflower",
-            "Collards",
-            "Corn",
-            "Kale"
-        ],
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": [{"7/1":["Beets", "Broccoli", "Carrots", "Cauliflower", "Collards", "Corn", "Fennel (bulbing)", "Squash, summer"]}],
-        "starts_outdoors_ideal_dates": [{"7/1-7/15": ["Corn", "Eggplant", "Peppers", "Squash, summer"]}]
-      },
-      {
-        "period_name": "Early August",
-        "activities":[],
-        "valid_dates": "8/1-8/15",
-        "seed_indoors": null,
-        "seed_outdoors": null,
-        "starts_outdoors:": [
-            "Basil", 
-            "Broccoli", 
-            "Cabbage", 
-            "Carrots", 
-            "Cauliflower", 
-            "Collards", 
-            "Dill", 
-            "Fennel (bulbing)"
-        ],
-        "seed_indoors_ideal": null,
-        "seed_outdoors_ideal": null,
-        "starts_outdoors_ideal": null,
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": null,
-        "starts_outdoors_ideal_dates": null
-      },
-      {
-        "period_name": "August",
-        "valid_dates": "8/1-8/31",
-        "activities":[],
-        "seed_indoors": null,
-        "seed_outdoors": [
-            "Arugula",
-            "Asian greens",
-            "Beets",
-            "Broccoli raab",
-            "Cabbage (early)",
-            "Cauliflower",
-            "Swiss Chard",
-            "Cilantro",
-            "Collards",
-            "Kale",
-            "Lettuce",
-            "Mustard greens",
-            "Peas",
-            "Radish",
-            "Salad greens",
-            "Spinach",
-            "Swiss chard",
-            "Turnips" 
-        ],
-        "starts_outdoors:": null,
-        "seed_indoors_ideal": null,
-        "seed_outdoors_ideal": [
-            "Arugula",
-            "Cabbage (early)",
-            "Swiss Chard",
-            "Spinach"
-        ],
-        "starts_outdoors_ideal": null,
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": [{"8/1":["Cabbage (early)", "Swiss chard", "Spinach"]}],
-        "starts_outdoors_ideal_dates": null
-      },
-      {
-        "period_name": "Late August",
-        "valid_dates": "8/15-8/31",
-        "activities":[],
-        "seed_indoors": null,
-        "seed_outdoors": [
-            "Artichoke",
-            "Asian greens",
-            "Cilantro",
-            "Kale",
-            "Leeks",
-            "Lettuce",
-            "Mustard Greens",
-            "Salad greens",
-            "Scallions",
-            "Spinach"
-        ],
-        "starts_outdoors:": null,
-        "seed_indoors_ideal": null,
-        "seed_outdoors_ideal": ["Kale", "Mustard greens", "Spinach"],
-        "starts_outdoors_ideal": null,
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": null,
-        "starts_outdoors_ideal_dates": null
-      },
-      {
-        "period_name": "September",
-        "valid_dates": "9/1-9/30",
-        "activities":[],
-        "seed_indoors": null,
-        "seed_outdoors": [
-            "Arugula",
-            "Asian greens",
-            "Beets",
-            "Cabbage (early)",
-            "Endive",
-            "Fava Beans",
-            "Garlic (cloves)",
-            "Lettuce",
-            "Kale",
-            "Onion sets",
-            "Radish",
-            "Salad greens",
-            "Shallots (bulb)"
-        ],
-        "starts_outdoors:": [
-            "Kale",
-            "Lettuce",
-            "Salad greens",
-            "Sorrel"
-        ],
-        "seed_indoors_ideal": null,
-        "seed_outdoors_ideal": [
-            "Arugula",
-            "Asian greens",
-            "Fava Beans",
-            "Garlic (cloves)",
-            "Lettuce",
-            "Onion sets",
-            "Radish",
-            "Salad greens",
-            "Shallots (bulb)"
-        ],
-        "starts_outdoors_ideal": null,
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": null,
-        "starts_outdoors_ideal_dates": null
-      },
-      {
-        "period_name": "October",
-        "valid_dates": "10/1-10/31",
-        "activities":[],
-        "seed_indoors": null,
-        "seed_outdoors": [
-            "Fava Beans",
-            "Garlic (cloves)",
-            "Onion sets",
-            "Shallots (bulb)"
-        ],
-        "starts_outdoors:": [
-            "Bok Choi",
-            "Cabbage",
-            "Lettuce",
-            "Salad greens"
-        ],
-        "seed_indoors_ideal": null,
-        "seed_outdoors_ideal": [
-            "Fava Beans",
-            "Garlic (cloves)",
-            "Onion sets",
-            "Shallots (bulb)"
-        ],
-        "starts_outdoors_ideal": null,
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": null,
-        "starts_outdoors_ideal_dates": null
-      },
-      {
-        "period_name": "November",
-        "valid_dates": "11/1-11/30",
-        "activities":[],
-        "seed_indoors": null,
-        "seed_outdoors": [
-            "Fava Beans",
-            "Garlic (cloves)",
-            "Onion sets",
-            "Shallots (bulb)"
-        ],
-        "starts_outdoors:": [],
-        "seed_indoors_ideal": [],
-        "seed_outdoors_ideal": [],
-        "starts_outdoors_ideal": [],
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": [{"8/1":["Plant"]}],
-        "starts_outdoors_ideal_dates": [{"7/1-7/15": ["Plant"]}]
-      },
-      {
-        "period_name": "December",
-        "valid_dates": "12/1-12/31",
-        "activities":["Make a cup of tea", "Look through seed catalogs", "Plan next year's garden", "Build a snowman", "Bonus points if your poinsetta blooms!"],
-        "seed_indoors": null,
-        "seed_outdoors": null,
-        "starts_outdoors:": null,
-        "seed_indoors_ideal": null,
-        "seed_outdoors_ideal": null,
-        "starts_outdoors_ideal": null,
-        "seed_indoors_ideal_dates": null,
-        "seed_outdoors_ideal_dates": null,
-        "starts_outdoors_ideal_dates": null
-      }
+        {
+            "period_name": "January",
+            "valid_dates": "1/1-1/31",
+            "activities": [
+                "Plan garden layout!"
+            ],
+            "seed_indoors": [
+                "Artichoke",
+                "Arugula",
+                "Endive",
+                "Fava Beans",
+                "Kale",
+                "Leeks",
+                "Lettuce",
+                "Mustard",
+                "Onions",
+                "Peas",
+                "Scallions",
+                "Spinach"
+            ],
+            "seed_outdoors": [
+                "Radish"
+            ],
+            "starts_outdoors:": null,
+            "seed_indoors_ideal": [
+                "Onions"
+            ],
+            "seed_outdoors_ideal": null,
+            "starts_outdoors_ideal": null,
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": null,
+            "starts_outdoors_ideal_dates": null
+        },
+        {
+            "period_name": "February",
+            "valid_dates": "2/1-2/29",
+            "activities": [],
+            "seed_indoors": [
+                "Celery",
+                "Swiss Chard",
+                "Chives",
+                "Choi",
+                "Eggplant",
+                "Endive",
+                "Kale",
+                "Kohlrabi",
+                "Leeks",
+                "Lettuce",
+                "Onion",
+                "Parsley",
+                "Peppers",
+                "Tomatillos",
+                "Tomatoes"
+            ],
+            "seed_outdoors": [
+                "Arugula",
+                "Asparagus (crowns)",
+                "Cilantro",
+                "Fava beans",
+                "Garlic (cloves)",
+                "Mustard Greens",
+                "Onion",
+                "Onion Bunches",
+                "Onion sets",
+                "Peas",
+                "Potatoes (tubers)",
+                "Radish",
+                "Scallions",
+                "Spinach"
+            ],
+            "starts_outdoors:": [
+                "Artichoke",
+                "Peas",
+                "Garlic",
+                "Onions"
+            ],
+            "seed_indoors_ideal": [
+                "Eggplant"
+            ],
+            "seed_outdoors_ideal": [
+                "Arugula",
+                "Onion",
+                "Onion Bunches",
+                "Onion Sets",
+                "Peas",
+                "Spinach"
+            ],
+            "starts_outdoors_ideal": null,
+            "seed_indoors_ideal_dates": [
+                {
+                    "2/15": [
+                        "Eggplant",
+                        "Peppers",
+                        "Tomatoes"
+                    ]
+                }
+            ],
+            "seed_outdoors_ideal_dates": null,
+            "starts_outdoors_ideal_dates": null
+        },
+        {
+            "period_name": "March",
+            "valid_dates": "3/1-3/31",
+            "activities": [],
+            "seed_indoors": [
+                "Broccoli",
+                "Cabbage",
+                "Cauliflower",
+                "Celeriac",
+                "Celery",
+                "Eggplant",
+                "Leeks",
+                "Lettuce",
+                "Peppers",
+                "Scallions",
+                "Tomatoes",
+                "Tomatillos"
+            ],
+            "seed_outdoors": [
+                "Arugula",
+                "Asian greens",
+                "Asparagus (crown)",
+                "Swiss Chard",
+                "Cilantro",
+                "Choi",
+                "Fava Beans",
+                "Garlic (cloves)",
+                "Kale",
+                "Mustard greens",
+                "Peas",
+                "Potatoes (tuber)",
+                "Scallions",
+                "Spinach"
+            ],
+            "starts_outdoors:": [
+                "Artichoke",
+                "Arugula",
+                "Asian greens",
+                "Broccoli",
+                "Cabbage (early)",
+                "Swiss Chard",
+                "Choi",
+                "Cilantro",
+                "Green onions",
+                "Jer. Artichoke",
+                "Tuber",
+                "Kale",
+                "Lettuce",
+                "Mustard greens",
+                "Onion",
+                "Peas",
+                "Salad greens",
+                "Spinach"
+            ],
+            "seed_indoors_ideal": [
+                "Eggplant",
+                "Peppers",
+                "Tomatoes",
+                "Tomatillos"
+            ],
+            "seed_outdoors_ideal": [
+                "Arugula",
+                "Asparagus (crown)",
+                "Swiss Chard",
+                "Mustard greens",
+                "Peas",
+                "Spinach"
+            ],
+            "starts_outdoors_ideal": [
+                "Broccoli",
+                "Jer. Artichoke",
+                "Kale"
+            ],
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": [
+                {
+                    "3/1": [
+                        "Peas"
+                    ]
+                }
+            ],
+            "starts_outdoors_ideal_dates": null
+        },
+        {
+            "period_name": "April",
+            "valid_dates": "4/1-4/30",
+            "seed_indoors": null,
+            "seed_outdoors": null,
+            "starts_outdoors:": [
+                "Artichoke",
+                "Arugula",
+                "Asian Greens",
+                "Beets",
+                "Broccoli",
+                "Brussels Sprouts",
+                "Cabbage (early)",
+                "Carrots",
+                "Cauliflower",
+                "Celeriac",
+                "Celery",
+                "Swiss Chard",
+                "Choi",
+                "Cilantro",
+                "Collards",
+                "Dill",
+                "Endive",
+                "Fennel (bulbing)",
+                "Jer. Artichoke",
+                "Kale",
+                "Kohlrabi",
+                "Leeks",
+                "Lettuce",
+                "Mustard Greens",
+                "Peas",
+                "Radicchio",
+                "Salad greens",
+                "Scallions",
+                "Sorrel",
+                "Spinach"
+            ],
+            "seed_indoors_ideal": [],
+            "seed_outdoors_ideal": null,
+            "starts_outdoors_ideal": [
+                "Artichoke",
+                "Broccoli",
+                "Cabbage (early types)",
+                "Cauliflower",
+                "Celeriac",
+                "Celery",
+                "Endive",
+                "Fennel (bulbing)",
+                "Jer. Artichoke",
+                "Kale",
+                "Leeks"
+            ],
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": null,
+            "starts_outdoors_ideal_dates": [
+                {
+                    "4/15": [
+                        "Celeriac",
+                        "Celery"
+                    ]
+                }
+            ]
+        },
+        {
+            "period_name": "Late April",
+            "valid_dates": "4/15-4/30",
+            "activities": [
+                "Harden off seedlings"
+            ],
+            "seed_indoors": [
+                "Basil",
+                "Cucumber",
+                "Melon",
+                "Pumpkin",
+                "Squash, summer",
+                "Squash, winter"
+            ],
+            "seed_outdoors": [
+                "Arugula",
+                "Asian greens",
+                "Asparagus (crown)",
+                "Beets",
+                "Broccoli",
+                "Brussels sprouts",
+                "Cabbage (early)",
+                "Carrots",
+                "Cauliflower",
+                "Celeriac",
+                "Celery",
+                "Swiss Chard",
+                "Choi",
+                "Cilantro",
+                "Collards",
+                "Dill",
+                "Endive",
+                "Fennel (bulbing)",
+                "Jer. Artichoke (tuber)",
+                "Kale",
+                "Kohlrabi",
+                "Lettuce",
+                "Mustard Greens",
+                "Peas",
+                "Potatoes (tubers)",
+                "Radicchio",
+                "Radish",
+                "Scallions",
+                "Sorrel",
+                "Spinach",
+                "Turnips"
+            ],
+            "starts_outdoors:": null,
+            "seed_indoors_ideal": null,
+            "seed_outdoors_ideal": [
+                "Beets",
+                "Broccoli",
+                "Cabbage (early)",
+                "Carrots",
+                "Cauliflower",
+                "Celeriac",
+                "Celery",
+                "Swiss Chard",
+                "Choi",
+                "Cilantro",
+                "Endive",
+                "Jer. Artichoke (tuber)",
+                "Kohlrabi",
+                "Lettuce",
+                "Spinach",
+                "Turnips"
+            ],
+            "starts_outdoors_ideal": null,
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": [
+                {
+                    "4/1": [
+                        "Carrots",
+                        "Peas"
+                    ]
+                },
+                {
+                    "4/15": [
+                        "Celeriac",
+                        "Celery"
+                    ]
+                }
+            ],
+            "starts_outdoors_ideal_dates": null
+        },
+        {
+            "period_name": "May",
+            "valid_dates": "5/1-5/31",
+            "activities": [],
+            "seed_indoors": [
+                "Basil",
+                "Cucumber",
+                "Melon"
+            ],
+            "seed_outdoors": [
+                "Arugula",
+                "Asian greens",
+                "Basil",
+                "Beans",
+                "Beets",
+                "Broccoli",
+                "Brussels sprouts",
+                "Cabbage",
+                "Carrots",
+                "Cauliflower",
+                "Celeriac",
+                "Celery",
+                "Swiss Chard",
+                "Choi",
+                "Cilantro",
+                "Collards",
+                "Dill",
+                "Fennel (bulbing)",
+                "Kale",
+                "Kohlrabi",
+                "Leeks",
+                "Lettuce",
+                "Parsnips",
+                "Potatoes",
+                "Tubers",
+                "Pumpkin",
+                "Radicchio",
+                "Radish",
+                "Rutabaga",
+                "Salad greens",
+                "Scallions",
+                "Spinach",
+                "Squash, summer",
+                "Squash, winter",
+                "Turnips"
+            ],
+            "starts_outdoors:": [
+                "Artichoke",
+                "Arugula",
+                "Basil",
+                "Beans",
+                "Broccoli",
+                "Cabbage (early and late)",
+                "Carrots",
+                "Cauliflower",
+                "Celeriac",
+                "Celery",
+                "Swiss Chard",
+                "Collards",
+                "Corn",
+                "Cucumbers",
+                "Dill",
+                "Eggplant",
+                "Fennel (bulbing)",
+                "Jer. Artichoke",
+                "Kale",
+                "Kohlrabi",
+                "Leeks",
+                "Lettuce",
+                "Peppers",
+                "Radicchio",
+                "Salad Greens",
+                "Scallions",
+                "Sorrel",
+                "Spinach",
+                "Squash, summer",
+                "Squash, winter",
+                "Tomatoes",
+                "Tomatillos"
+            ],
+            "seed_indoors_ideal": null,
+            "seed_outdoors_ideal": [
+                "Beans",
+                "Brussels sprouts",
+                "Collards",
+                "Parsnips",
+                "Potatoes",
+                "Spinach"
+            ],
+            "starts_outdoors_ideal": [],
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": [
+                {
+                    "5/15": [
+                        "Basil",
+                        "Beans",
+                        "Dill",
+                        "Pumpkin",
+                        "Squash, summer",
+                        "Squash, winter"
+                    ]
+                }
+            ],
+            "starts_outdoors_ideal_dates": [
+                {
+                    "5/15": [
+                        "Basil",
+                        "Corn",
+                        "Cucumbers",
+                        "Eggplant",
+                        "Peppers",
+                        "Squash, summer",
+                        "Squash, winter",
+                        "Tomatoes",
+                        "Tomatillos"
+                    ]
+                }
+            ]
+        },
+        {
+            "period_name": "June",
+            "valid_dates": "6/1-6/30",
+            "activities": [],
+            "seed_indoors": null,
+            "seed_outdoors": [
+                "Arugula",
+                "Asian greens",
+                "Basil",
+                "Beans",
+                "Beets",
+                "Broccoli",
+                "Brussels sprouts",
+                "Cabbage (late)",
+                "Carrots",
+                "Cauliflower",
+                "Swiss Chard",
+                "Cilantro",
+                "Corn",
+                "Cucumbers",
+                "Dill",
+                "Endive",
+                "Kale Kohlrabi",
+                "Lettuce",
+                "Melons",
+                "Parsnips",
+                "Pumpkins",
+                "Rutabaga",
+                "Scallions",
+                "Squash, summer",
+                "Squash, winter",
+                "Turnips"
+            ],
+            "starts_outdoors:": [
+                "Artichoke",
+                "Basil",
+                "Beans",
+                "Broccoli",
+                "Brussels sprouts",
+                "Cauliflower",
+                "Celery",
+                "Corn",
+                "Cucumbers",
+                "Eggplant",
+                "Leeks",
+                "Melons",
+                "Peppers",
+                "Pumpkins",
+                "Squash (all)",
+                "Swiss chard",
+                "Tomatoes"
+            ],
+            "seed_indoors_ideal": [],
+            "seed_outdoors_ideal": [
+                "Basil",
+                "Beans",
+                "Brussels sprouts",
+                "Cabbage (late)",
+                "Carrots",
+                "Corn",
+                "Cucumbers",
+                "Kale Kohlrabi",
+                "Melons",
+                "Pumpkins",
+                "Rutabaga",
+                "Squash, summer",
+                "Squash, winter"
+            ],
+            "starts_outdoors_ideal": [
+                "Basil",
+                "Brussels sprouts",
+                "Corn",
+                "Eggplant",
+                "Peppers",
+                "Squash, summer",
+                "Squash, winter",
+                "Tomatoes"
+            ],
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": [
+                {
+                    "6/1": [
+                        "Basil",
+                        "Beans",
+                        "Cabbage (late)",
+                        "Cucumbers",
+                        "Melons",
+                        "Pumpkins",
+                        "Squash, summer",
+                        "Squash, winter"
+                    ]
+                },
+                {
+                    "6/15": [
+                        "Carrots"
+                    ]
+                }
+            ],
+            "starts_outdoors_ideal_dates": []
+        },
+        {
+            "period_name": "July",
+            "valid_dates": "7/1-7/31",
+            "activities": [],
+            "seed_indoors": null,
+            "seed_outdoors": [
+                "Arugula",
+                "Asian greens",
+                "Basil",
+                "Beans Beets",
+                "Broccoli",
+                "Brussels Sprouts",
+                "Cabbage (early)",
+                "Carrots",
+                "Cauliflower",
+                "Swiss Chard",
+                "Cilantro",
+                "Collards",
+                "Corn",
+                "Fennel (bulbing)",
+                "Kale",
+                "Kohlrabi",
+                "Lettuce",
+                "Parsnips",
+                "Peas",
+                "Radish",
+                "Scallions",
+                "Spinach",
+                "Squash, Summer",
+                "Turnips"
+            ],
+            "starts_outdoors:": [
+                "Artichoke",
+                "Basil",
+                "Broccoli",
+                "Bruss. sprouts",
+                "Cabbage",
+                "Carrots",
+                "Cauliflower",
+                "Collards",
+                "Corn",
+                "Cucumbers",
+                "Eggplant",
+                "Kale",
+                "Leeks",
+                "Lettuce",
+                "Peppers",
+                "Squash, summer"
+            ],
+            "seed_indoors_ideal": [],
+            "seed_outdoors_ideal": [
+                "Asian greens",
+                "Beans Beets",
+                "Broccoli",
+                "Carrots",
+                "Cauliflower",
+                "Corn",
+                "Fennel (bulbing)",
+                "Kale",
+                "Turnips"
+            ],
+            "starts_outdoors_ideal": [
+                "Basil",
+                "Broccoli",
+                "Bruss. sprouts",
+                "Cabbage",
+                "Carrots",
+                "Cauliflower",
+                "Collards",
+                "Corn",
+                "Kale"
+            ],
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": [
+                {
+                    "7/1": [
+                        "Beets",
+                        "Broccoli",
+                        "Carrots",
+                        "Cauliflower",
+                        "Collards",
+                        "Corn",
+                        "Fennel (bulbing)",
+                        "Squash, summer"
+                    ]
+                }
+            ],
+            "starts_outdoors_ideal_dates": [
+                {
+                    "7/1-7/15": [
+                        "Corn",
+                        "Eggplant",
+                        "Peppers",
+                        "Squash, summer"
+                    ]
+                }
+            ]
+        },
+        {
+            "period_name": "Early August",
+            "activities": [],
+            "valid_dates": "8/1-8/15",
+            "seed_indoors": null,
+            "seed_outdoors": null,
+            "starts_outdoors:": [
+                "Basil",
+                "Broccoli",
+                "Cabbage",
+                "Carrots",
+                "Cauliflower",
+                "Collards",
+                "Dill",
+                "Fennel (bulbing)"
+            ],
+            "seed_indoors_ideal": null,
+            "seed_outdoors_ideal": null,
+            "starts_outdoors_ideal": null,
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": null,
+            "starts_outdoors_ideal_dates": null
+        },
+        {
+            "period_name": "August",
+            "valid_dates": "8/1-8/31",
+            "activities": [],
+            "seed_indoors": null,
+            "seed_outdoors": [
+                "Arugula",
+                "Asian greens",
+                "Beets",
+                "Broccoli raab",
+                "Cabbage (early)",
+                "Cauliflower",
+                "Swiss Chard",
+                "Cilantro",
+                "Collards",
+                "Kale",
+                "Lettuce",
+                "Mustard greens",
+                "Peas",
+                "Radish",
+                "Salad greens",
+                "Spinach",
+                "Swiss chard",
+                "Turnips"
+            ],
+            "starts_outdoors:": null,
+            "seed_indoors_ideal": null,
+            "seed_outdoors_ideal": [
+                "Arugula",
+                "Cabbage (early)",
+                "Swiss Chard",
+                "Spinach"
+            ],
+            "starts_outdoors_ideal": null,
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": [
+                {
+                    "8/1": [
+                        "Cabbage (early)",
+                        "Swiss chard",
+                        "Spinach"
+                    ]
+                }
+            ],
+            "starts_outdoors_ideal_dates": null
+        },
+        {
+            "period_name": "Late August",
+            "valid_dates": "8/15-8/31",
+            "activities": [],
+            "seed_indoors": null,
+            "seed_outdoors": [
+                "Artichoke",
+                "Asian greens",
+                "Cilantro",
+                "Kale",
+                "Leeks",
+                "Lettuce",
+                "Mustard Greens",
+                "Salad greens",
+                "Scallions",
+                "Spinach"
+            ],
+            "starts_outdoors:": null,
+            "seed_indoors_ideal": null,
+            "seed_outdoors_ideal": [
+                "Kale",
+                "Mustard greens",
+                "Spinach"
+            ],
+            "starts_outdoors_ideal": null,
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": null,
+            "starts_outdoors_ideal_dates": null
+        },
+        {
+            "period_name": "September",
+            "valid_dates": "9/1-9/30",
+            "activities": [],
+            "seed_indoors": null,
+            "seed_outdoors": [
+                "Arugula",
+                "Asian greens",
+                "Beets",
+                "Cabbage (early)",
+                "Endive",
+                "Fava Beans",
+                "Garlic (cloves)",
+                "Lettuce",
+                "Kale",
+                "Onion sets",
+                "Radish",
+                "Salad greens",
+                "Shallots (bulb)"
+            ],
+            "starts_outdoors:": [
+                "Kale",
+                "Lettuce",
+                "Salad greens",
+                "Sorrel"
+            ],
+            "seed_indoors_ideal": null,
+            "seed_outdoors_ideal": [
+                "Arugula",
+                "Asian greens",
+                "Fava Beans",
+                "Garlic (cloves)",
+                "Lettuce",
+                "Onion sets",
+                "Radish",
+                "Salad greens",
+                "Shallots (bulb)"
+            ],
+            "starts_outdoors_ideal": null,
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": null,
+            "starts_outdoors_ideal_dates": null
+        },
+        {
+            "period_name": "October",
+            "valid_dates": "10/1-10/31",
+            "activities": [],
+            "seed_indoors": null,
+            "seed_outdoors": [
+                "Fava Beans",
+                "Garlic (cloves)",
+                "Onion sets",
+                "Shallots (bulb)"
+            ],
+            "starts_outdoors:": [
+                "Bok Choi",
+                "Cabbage",
+                "Lettuce",
+                "Salad greens"
+            ],
+            "seed_indoors_ideal": null,
+            "seed_outdoors_ideal": [
+                "Fava Beans",
+                "Garlic (cloves)",
+                "Onion sets",
+                "Shallots (bulb)"
+            ],
+            "starts_outdoors_ideal": null,
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": null,
+            "starts_outdoors_ideal_dates": null
+        },
+        {
+            "period_name": "November",
+            "valid_dates": "11/1-11/30",
+            "activities": [],
+            "seed_indoors": null,
+            "seed_outdoors": [
+                "Fava Beans",
+                "Garlic (cloves)",
+                "Onion sets",
+                "Shallots (bulb)"
+            ],
+            "starts_outdoors:": [],
+            "seed_indoors_ideal": [],
+            "seed_outdoors_ideal": [],
+            "starts_outdoors_ideal": [],
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": [
+                {
+                    "8/1": [
+                        "Plant"
+                    ]
+                }
+            ],
+            "starts_outdoors_ideal_dates": [
+                {
+                    "7/1-7/15": [
+                        "Plant"
+                    ]
+                }
+            ]
+        },
+        {
+            "period_name": "December",
+            "valid_dates": "12/1-12/31",
+            "activities": [
+                "Make a cup of tea",
+                "Look through seed catalogs",
+                "Plan next year's garden",
+                "Build a snowman",
+                "Bonus points if your poinsetta blooms!"
+            ],
+            "seed_indoors": null,
+            "seed_outdoors": null,
+            "starts_outdoors:": null,
+            "seed_indoors_ideal": null,
+            "seed_outdoors_ideal": null,
+            "starts_outdoors_ideal": null,
+            "seed_indoors_ideal_dates": null,
+            "seed_outdoors_ideal_dates": null,
+            "starts_outdoors_ideal_dates": null
+        }
     ],
-"plant_spacing": [
-    {"Artichoke": ["24 in.", "3-6 ft."]},
-    {"Asian greens": ["6-12 in.", "18-24 in."]},
-    {"Asparagus": ["1 crown/foot", "4-6 ft."]},
-    {"Beans (bush)": ["2-3 in.", "18-36 in."]},
-    {"Beans (Pole)": ["2-3 in.", "3-4 ft."]},
-    {"Beans (Fava)": ["3-5 in.", "12-30 in."]},
-    {"Beets": ["Thin to 3-4 in.", "16 in."]},
-    {"Brussel sprouts": ["24 in.", "24 in."]},
-    {"Broccoli": ["12-24 in.", "18-36 in."]},
-    {"Cabbage": ["18-24 in.", "2-4 ft."]},
-    {"Cauliflower": ["12-24 in.", "30 in."]},
-    {"Carrots": ["Thin to 1-3 in.", "12-16 in."]},
-    {"Celery": ["12 in.", "18 in."]},
-    {"Collards": ["12-16 in.", "24-36 in."]},
-    {"Corn": ["Thin to 8-12 in.", "24-30 in."]},
-    {"Cucumber": ["Hills 3 ft.", "3 ft."]},
-    {"Eggplant": ["12-18 in.", "2-3 ft."]},
-    {"Garlic": ["4-6 in.", "12-18 in."]},
-    {"Kale": ["18-24 in.", "24 in."]},
-    {"Kohlrabi": ["3-8 in.", "12-18 in."]},
-    {"Leeks": ["4-5 in.", "12-18 in."]},
-    {"Lettuce (leaf)": ["10-14 in.", "16-18 in."]},
-    {"Lettuce (Iceberg/Romaine)": ["12-16 in.", "16-18 in."]},
-    {"Melons": ["3-4 ft.", "5-6 ft."]},
-    {"Onions (large)": ["5 in.", "16-24 in."]},
-    {"Onions (Green)": ["2 in.", "12-18 in."]},
-    {"Parsley": ["6-8 in.", "12-18 in."]},
-    {"Parsnips": ["Thin to 3-4 in.", "12-18 in."]},
-    {"Peas": ["1 in.", "18-24 in."]},
-    {"Peppers": ["12-18 in.", "24-30 in."]},
-    {"Potatoes": ["12 in. 4-6 in. deep", "12-24 in."]},
-    {"Pumpkin (bush)": ["6-8 ft.", "3-4 ft."]},
-    {"Pumpkin (lg.)": ["4-5 ft.", "8-10 ft."]},
-    {"Radish": ["Thin to 1-2 in.", "8-12 in."]},
-    {"Shallots": ["4-6 in.", "12-18 in."]},
-    {"Spinach": ["Thin to 3 in.", "12-18 in."]},
-    {"Swiss chard": ["2-3 in.", "18-24 in."]},
-    {"Squash (bush)": ["24 in.", "One per bed"]},
-    {"Squash (vine)": ["36 in.", "One per bed"]},
-    {"Tomatoes (Determinate)": ["18-24 in.", "12-16 in."]},
-    {"Tomatoes (Indeterminate)": ["20-30 in.", "2-3 ft."]}
-],
-"overwinter": [
-    {
-        "plant": "Artichoke",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": true,
-        "cover": true
-    },
-    {
-        "plant": "Arugula",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Asian Greens",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Beets",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Broccoli (overwintering varieties)",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Brussels Sprouts",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": true,
-        "cover": true
-    },
-    {
-        "plant": "Cabbage (certain varieties)",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Carrots",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": true,
-        "cover": true
-    },
-    {
-        "plant": "Cauliflower (winter varieties)",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Chard",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Collards",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Endive",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Fava Beans",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Garlic",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Kale",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Kohlrabi",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Leeks",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Lettuce (cold hardy varieties)",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Mustard Greens",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Onions (sets)",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Parsley (mild winters)",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Parsnips",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Scallions",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Sorrel",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Spinach",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    },
-    {
-        "plant": "Turnips",
-        "overwintering": true,
-        "needs_protection": true,
-        "mulch": false,
-        "cover": false
-    }
-]
+    "plant_spacing": [
+        {
+            "Artichoke": [
+                "24 in.",
+                "3-6 ft."
+            ]
+        },
+        {
+            "Asian greens": [
+                "6-12 in.",
+                "18-24 in."
+            ]
+        },
+        {
+            "Asparagus": [
+                "1 crown/foot",
+                "4-6 ft."
+            ]
+        },
+        {
+            "Beans (bush)": [
+                "2-3 in.",
+                "18-36 in."
+            ]
+        },
+        {
+            "Beans (Pole)": [
+                "2-3 in.",
+                "3-4 ft."
+            ]
+        },
+        {
+            "Beans (Fava)": [
+                "3-5 in.",
+                "12-30 in."
+            ]
+        },
+        {
+            "Beets": [
+                "Thin to 3-4 in.",
+                "16 in."
+            ]
+        },
+        {
+            "Brussel sprouts": [
+                "24 in.",
+                "24 in."
+            ]
+        },
+        {
+            "Broccoli": [
+                "12-24 in.",
+                "18-36 in."
+            ]
+        },
+        {
+            "Cabbage": [
+                "18-24 in.",
+                "2-4 ft."
+            ]
+        },
+        {
+            "Cauliflower": [
+                "12-24 in.",
+                "30 in."
+            ]
+        },
+        {
+            "Carrots": [
+                "Thin to 1-3 in.",
+                "12-16 in."
+            ]
+        },
+        {
+            "Celery": [
+                "12 in.",
+                "18 in."
+            ]
+        },
+        {
+            "Collards": [
+                "12-16 in.",
+                "24-36 in."
+            ]
+        },
+        {
+            "Corn": [
+                "Thin to 8-12 in.",
+                "24-30 in."
+            ]
+        },
+        {
+            "Cucumber": [
+                "Hills 3 ft.",
+                "3 ft."
+            ]
+        },
+        {
+            "Eggplant": [
+                "12-18 in.",
+                "2-3 ft."
+            ]
+        },
+        {
+            "Garlic": [
+                "4-6 in.",
+                "12-18 in."
+            ]
+        },
+        {
+            "Kale": [
+                "18-24 in.",
+                "24 in."
+            ]
+        },
+        {
+            "Kohlrabi": [
+                "3-8 in.",
+                "12-18 in."
+            ]
+        },
+        {
+            "Leeks": [
+                "4-5 in.",
+                "12-18 in."
+            ]
+        },
+        {
+            "Lettuce (leaf)": [
+                "10-14 in.",
+                "16-18 in."
+            ]
+        },
+        {
+            "Lettuce (Iceberg/Romaine)": [
+                "12-16 in.",
+                "16-18 in."
+            ]
+        },
+        {
+            "Melons": [
+                "3-4 ft.",
+                "5-6 ft."
+            ]
+        },
+        {
+            "Onions (large)": [
+                "5 in.",
+                "16-24 in."
+            ]
+        },
+        {
+            "Onions (Green)": [
+                "2 in.",
+                "12-18 in."
+            ]
+        },
+        {
+            "Parsley": [
+                "6-8 in.",
+                "12-18 in."
+            ]
+        },
+        {
+            "Parsnips": [
+                "Thin to 3-4 in.",
+                "12-18 in."
+            ]
+        },
+        {
+            "Peas": [
+                "1 in.",
+                "18-24 in."
+            ]
+        },
+        {
+            "Peppers": [
+                "12-18 in.",
+                "24-30 in."
+            ]
+        },
+        {
+            "Potatoes": [
+                "12 in. 4-6 in. deep",
+                "12-24 in."
+            ]
+        },
+        {
+            "Pumpkin (bush)": [
+                "6-8 ft.",
+                "3-4 ft."
+            ]
+        },
+        {
+            "Pumpkin (lg.)": [
+                "4-5 ft.",
+                "8-10 ft."
+            ]
+        },
+        {
+            "Radish": [
+                "Thin to 1-2 in.",
+                "8-12 in."
+            ]
+        },
+        {
+            "Shallots": [
+                "4-6 in.",
+                "12-18 in."
+            ]
+        },
+        {
+            "Spinach": [
+                "Thin to 3 in.",
+                "12-18 in."
+            ]
+        },
+        {
+            "Swiss chard": [
+                "2-3 in.",
+                "18-24 in."
+            ]
+        },
+        {
+            "Squash (bush)": [
+                "24 in.",
+                "One per bed"
+            ]
+        },
+        {
+            "Squash (vine)": [
+                "36 in.",
+                "One per bed"
+            ]
+        },
+        {
+            "Tomatoes (Determinate)": [
+                "18-24 in.",
+                "12-16 in."
+            ]
+        },
+        {
+            "Tomatoes (Indeterminate)": [
+                "20-30 in.",
+                "2-3 ft."
+            ]
+        }
+    ],
+    "overwinter": [
+        {
+            "plant": "Artichoke",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": true,
+            "cover": true
+        },
+        {
+            "plant": "Arugula",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Asian Greens",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Beets",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Broccoli (overwintering varieties)",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Brussels Sprouts",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": true,
+            "cover": true
+        },
+        {
+            "plant": "Cabbage (certain varieties)",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Carrots",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": true,
+            "cover": true
+        },
+        {
+            "plant": "Cauliflower (winter varieties)",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Chard",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Collards",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Endive",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Fava Beans",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Garlic",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Kale",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Kohlrabi",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Leeks",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Lettuce (cold hardy varieties)",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Mustard Greens",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Onions (sets)",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Parsley (mild winters)",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Parsnips",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Scallions",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Sorrel",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Spinach",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        },
+        {
+            "plant": "Turnips",
+            "overwintering": true,
+            "needs_protection": true,
+            "mulch": false,
+            "cover": false
+        }
+    ]
 }
